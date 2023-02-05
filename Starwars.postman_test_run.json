@@ -1,0 +1,135 @@
+{
+	"id": "de230338-bebb-492a-b0ee-7c55ddd3c5d5",
+	"name": "Starwars",
+	"timestamp": "2022-10-30T14:32:39.369Z",
+	"collection_id": "23889937-43411909-e426-4734-839e-51536804ee26",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 7,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "36cfcad1-240b-4fb6-85ec-5c456ec88702",
+			"name": "Запрос по персонажу",
+			"url": "https://swapi.dev/api/people/10/",
+			"time": 239,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Статус ответа 200": true,
+				"Время": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Статус ответа 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Время": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				239
+			],
+			"allTests": [
+				{
+					"Статус ответа 200": true,
+					"Время": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "a5b96318-a636-4702-8e68-b616e6d18dca",
+			"name": "Запрос за планетой",
+			"url": "https://swapi.dev/api/planets/7/",
+			"time": 93,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Статус ответа 200": true,
+				"Время": true
+			},
+			"testPassFailCounts": {
+				"Статус ответа 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Время": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				93
+			],
+			"allTests": [
+				{
+					"Статус ответа 200": true,
+					"Время": true
+				}
+			]
+		},
+		{
+			"id": "087f0e57-de29-4384-9d3c-8a4863c003b2",
+			"name": "Запрос за космическим кораблём",
+			"url": "https://swapi.dev/api/starships/5/",
+			"time": 83,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Статус ответа 200": true,
+				"Время": true
+			},
+			"testPassFailCounts": {
+				"Статус ответа 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Время": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				83
+			],
+			"allTests": [
+				{
+					"Статус ответа 200": true,
+					"Время": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 415,
+	"collection": {
+		"requests": [
+			{
+				"id": "36cfcad1-240b-4fb6-85ec-5c456ec88702",
+				"method": "GET"
+			},
+			{
+				"id": "a5b96318-a636-4702-8e68-b616e6d18dca",
+				"method": "GET"
+			},
+			{
+				"id": "087f0e57-de29-4384-9d3c-8a4863c003b2",
+				"method": "GET"
+			}
+		]
+	}
+}
